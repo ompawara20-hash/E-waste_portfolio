@@ -49,8 +49,8 @@ function App() {
               </p>
 
               <h1>
-                Responsible Technology.
-                <span> Sustainable Future.</span>
+                Om Pawar's <br />
+                <span> E-Portfolio</span>
               </h1>
 
               <p className="hero-description">
