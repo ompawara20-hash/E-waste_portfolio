@@ -1,3 +1,5 @@
+import profilePhoto from "../assets/home/profile-photo.png";
+
 function Navbar({ activePage, setActivePage }) {
 
   const handleNavigation = (page) => {
@@ -10,7 +12,6 @@ function Navbar({ activePage, setActivePage }) {
   };
 
   return (
-
     <nav className="navbar">
 
       <div
@@ -18,8 +19,11 @@ function Navbar({ activePage, setActivePage }) {
         onClick={() => handleNavigation("home")}
       >
 
-        <div className="logo-symbol">
-          ♻
+        <div className="logo-profile">
+          <img
+            src={profilePhoto}
+            alt="Om Pawar"
+          />
         </div>
 
         <div className="logo-text">
@@ -28,7 +32,6 @@ function Navbar({ activePage, setActivePage }) {
         </div>
 
       </div>
-
 
       <div className="nav-links">
 
@@ -45,7 +48,7 @@ function Navbar({ activePage, setActivePage }) {
           onClick={() => handleNavigation("activity1")}
         >
           <span>01</span>
-          Activity 1
+          Pledge
         </button>
 
         <button
@@ -53,7 +56,7 @@ function Navbar({ activePage, setActivePage }) {
           onClick={() => handleNavigation("activity2")}
         >
           <span>02</span>
-          Activity 2
+          Video Task
         </button>
 
         <button
@@ -61,7 +64,15 @@ function Navbar({ activePage, setActivePage }) {
           onClick={() => handleNavigation("activity3")}
         >
           <span>03</span>
-          Activity 3
+          Device Anatomy
+        </button>
+
+        <button
+          className={activePage === "activity4" ? "active" : ""}
+          onClick={() => handleNavigation("activity4")}
+        >
+          <span>04</span>
+          Data Analysis
         </button>
 
       </div>

@@ -1,9 +1,9 @@
-import pic1 from "../assets/activity2/pic1.png";
-import pic2 from "../assets/activity2/pic2.png";
-import pic3 from "../assets/activity2/pic3.png";
+import pic1 from "../assets/activity4/pic1.png";
+import pic2 from "../assets/activity4/pic2.png";
+import pic3 from "../assets/activity4/pic3.png";
 
 
-function Activity2({ goHome }) {
+function Activity4({ goHome }) {
 
   return (
 
@@ -22,26 +22,26 @@ function Activity2({ goHome }) {
 
 
           <p className="activity-label">
-            ACTIVITY 02
+            ACTIVITY 04
           </p>
 
 
           <h1>
-            Video Based
-            <span> Task</span>
+            Global E-Waste
+            <span> Data Analysis</span>
           </h1>
 
 
           <p>
-            Understanding the complete journey of e-waste through
-            collection, recycling and industrial processing.
+            Analysing e-waste generation across different countries
+            and presenting insights through data.
           </p>
 
         </div>
 
 
         <div className="activity-big-number">
-          02
+          04
         </div>
 
       </div>
@@ -50,6 +50,8 @@ function Activity2({ goHome }) {
 
       <section className="activity-content section-container">
 
+
+        {/* META */}
 
         <div className="activity-meta-grid">
 
@@ -60,7 +62,7 @@ function Activity2({ goHome }) {
             </span>
 
             <strong>
-              Video Based Task
+              E-Waste Data Analysis
             </strong>
 
           </div>
@@ -73,7 +75,7 @@ function Activity2({ goHome }) {
             </span>
 
             <strong>
-              Video Analysis
+              Data Analysis
             </strong>
 
           </div>
@@ -86,7 +88,7 @@ function Activity2({ goHome }) {
             </span>
 
             <strong>
-              Recycling Process
+              Global E-Waste Generation
             </strong>
 
           </div>
@@ -108,6 +110,8 @@ function Activity2({ goHome }) {
 
 
 
+        {/* DESCRIPTION */}
+
         <div className="activity-detail-grid">
 
           <div>
@@ -118,18 +122,18 @@ function Activity2({ goHome }) {
 
 
             <h2>
-              Understanding
-              <span> the process.</span>
+              Understanding e-waste
+              <span> through data.</span>
             </h2>
 
 
             <p className="detail-text">
 
-              In this activity, I watched a video explaining
-              how electronic waste is collected, transported,
-              processed and recycled. The video also provided
-              an insight into how e-waste recycling takes place
-              at an industrial level.
+              In this activity, I analysed data related to
+              electronic waste generation across different
+              countries. The objective was to understand global
+              patterns, compare countries and identify the
+              increasing scale of electronic waste generation.
 
             </p>
 
@@ -139,15 +143,15 @@ function Activity2({ goHome }) {
           <div className="highlight-box">
 
             <span>
-              VIDEO FOCUS
+              ANALYSIS FOCUS
             </span>
 
             <h3>
-              Collection
+              Countries
               <br />
-              Processing
+              Generation
               <br />
-              Recycling
+              Comparison
             </h3>
 
           </div>
@@ -156,7 +160,50 @@ function Activity2({ goHome }) {
 
 
 
-        {/* THREE IMAGES */}
+        {/* PROJECT LINK */}
+
+        <div className="project-link-section">
+
+          <div className="project-link-icon">
+            ↗
+          </div>
+
+
+          <div className="project-link-content">
+
+            <p className="section-label">
+              MY WORK
+            </p>
+
+
+            <h2>
+              WASTE//ATLAS
+            </h2>
+
+
+            <p>
+              Explore my interactive global e-waste intelligence
+              project containing the data analysis and visualisation.
+            </p>
+
+
+            <a
+              href="https://chic-alfajores-ef4e82.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link-button"
+            >
+              Open WASTE//ATLAS
+              <span>↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+        {/* DATA IMAGES */}
 
         <div className="evidence-section">
 
@@ -168,16 +215,17 @@ function Activity2({ goHome }) {
                 02 / PROOF
               </p>
 
+
               <h2>
-                Video <span>Evidence</span>
+                Data <span>Evidence</span>
               </h2>
 
             </div>
 
 
             <p>
-              Screenshots representing important stages and
-              concepts observed in the video.
+              Visual evidence of the data analysis and
+              observations performed during the activity.
             </p>
 
           </div>
@@ -189,11 +237,11 @@ function Activity2({ goHome }) {
 
               <img
                 src={pic1}
-                alt="E-waste collection"
+                alt="E-waste data analysis"
               />
 
               <span>
-                E-Waste Collection
+                Global E-Waste Data
               </span>
 
             </div>
@@ -203,11 +251,11 @@ function Activity2({ goHome }) {
 
               <img
                 src={pic2}
-                alt="E-waste recycling"
+                alt="Country comparison"
               />
 
               <span>
-                Recycling Process
+                Country Comparison
               </span>
 
             </div>
@@ -217,11 +265,11 @@ function Activity2({ goHome }) {
 
               <img
                 src={pic3}
-                alt="Industrial e-waste processing"
+                alt="E-waste visualization"
               />
 
               <span>
-                Industrial Processing
+                Data Visualization
               </span>
 
             </div>
@@ -255,12 +303,12 @@ function Activity2({ goHome }) {
 
             <p>
 
-              This activity helped me understand that e-waste
-              recycling involves several stages rather than simply
-              throwing electronic products into a recycling bin.
-              I learned about collection, segregation, material
-              recovery and the role of industries in processing
-              electronic waste.
+              This activity helped me understand the scale of the
+              global e-waste problem through actual data. I learned
+              how data analysis can be used to compare e-waste
+              generation between countries and identify patterns
+              that are difficult to understand through observations
+              alone.
 
             </p>
 
@@ -274,4 +322,4 @@ function Activity2({ goHome }) {
   );
 }
 
-export default Activity2;
+export default Activity4;

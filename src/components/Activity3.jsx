@@ -1,3 +1,7 @@
+import pic1 from "../assets/activity3/pic1.png";
+import pic2 from "../assets/activity3/pic2.png";
+
+
 function Activity3({ goHome }) {
 
   return (
@@ -15,22 +19,25 @@ function Activity3({ goHome }) {
             ← Back to Home
           </button>
 
+
           <p className="activity-label">
             ACTIVITY 03
           </p>
 
+
           <h1>
-            Survey &
-            <span> Reflection</span>
+            Device
+            <span> Anatomy</span>
           </h1>
 
+
           <p>
-            A documentation and reflection activity focused on
-            observations, findings and the understanding developed
-            through the E-Waste Management subject.
+            Disassembling a computer mouse to identify its internal
+            components, materials and environmental impact.
           </p>
 
         </div>
+
 
         <div className="activity-big-number">
           03
@@ -39,33 +46,65 @@ function Activity3({ goHome }) {
       </div>
 
 
+
       <section className="activity-content section-container">
+
 
         <div className="activity-meta-grid">
 
           <div className="meta-box">
-            <span>DATE</span>
-            <strong>Add Date</strong>
+
+            <span>
+              DEVICE
+            </span>
+
+            <strong>
+              Computer Mouse
+            </strong>
+
           </div>
 
-          <div className="meta-box">
-            <span>LOCATION</span>
-            <strong>VIT Mumbai</strong>
-          </div>
 
           <div className="meta-box">
-            <span>TYPE</span>
-            <strong>Survey / Academic</strong>
+
+            <span>
+              TYPE
+            </span>
+
+            <strong>
+              Device Anatomy
+            </strong>
+
           </div>
 
+
           <div className="meta-box">
-            <span>STATUS</span>
+
+            <span>
+              PROCESS
+            </span>
+
+            <strong>
+              Disassembly & Analysis
+            </strong>
+
+          </div>
+
+
+          <div className="meta-box">
+
+            <span>
+              STATUS
+            </span>
+
             <strong className="status">
               ✓ Completed
             </strong>
+
           </div>
 
         </div>
+
 
 
         <div className="activity-detail-grid">
@@ -73,22 +112,24 @@ function Activity3({ goHome }) {
           <div>
 
             <p className="section-label">
-              01 / OBJECTIVE
+              01 / ACTIVITY DESCRIPTION
             </p>
 
+
             <h2>
-              Observe.
-              <br />
-              Analyse.
-              <br />
-              <span>Learn.</span>
+              Looking inside
+              <span> technology.</span>
             </h2>
 
+
             <p className="detail-text">
-              The objective of this activity was to gather
-              observations, understand existing e-waste practices
-              and reflect upon the importance of sustainable
-              electronic waste management.
+
+              In this activity, I disassembled a computer mouse
+              and examined its internal structure. The individual
+              components were extracted and analysed to understand
+              their purpose, material composition, environmental
+              impact and potential value during e-waste recycling.
+
             </p>
 
           </div>
@@ -96,14 +137,16 @@ function Activity3({ goHome }) {
 
           <div className="highlight-box">
 
-            <span>KEY FOCUS</span>
+            <span>
+              ANALYSIS
+            </span>
 
             <h3>
-              Research
+              Components
               <br />
-              Observation
+              Materials
               <br />
-              Reflection
+              Environmental Impact
             </h3>
 
           </div>
@@ -111,64 +154,78 @@ function Activity3({ goHome }) {
         </div>
 
 
-        <div className="activity-description">
+
+        {/* COMPONENT ANALYSIS */}
+
+        <div className="component-analysis">
 
           <p className="section-label">
-            02 / ACTIVITY DESCRIPTION
+            COMPONENT ANALYSIS
           </p>
 
-          <h2>
-            Research & <span>Findings</span>
-          </h2>
 
-          <p>
-            Add the actual description of Activity 3 here. Include
-            details about the survey, questions asked, participants,
-            observations and major findings.
-          </p>
+          <div className="component-grid">
 
-        </div>
+            <div className="component-card">
 
+              <span>
+                01
+              </span>
 
-        <div className="contribution-section">
+              <h3>
+                Plastic
+              </h3>
 
-          <p className="section-label">
-            03 / MY CONTRIBUTION
-          </p>
-
-          <div className="contribution-grid">
-
-            <div>
-              <span>01</span>
-              <h3>Research</h3>
               <p>
-                Collected information and researched important
-                aspects of e-waste management.
+                Used for the outer body of the mouse. Improper
+                disposal can contribute to long-term plastic waste.
               </p>
+
             </div>
 
-            <div>
-              <span>02</span>
-              <h3>Analysis</h3>
+
+            <div className="component-card">
+
+              <span>
+                02
+              </span>
+
+              <h3>
+                PCB
+              </h3>
+
               <p>
-                Analysed the information and identified important
-                observations from the activity.
+                Contains electronic components and conductive
+                materials that require responsible recycling.
               </p>
+
             </div>
 
-            <div>
-              <span>03</span>
-              <h3>Reflection</h3>
+
+            <div className="component-card">
+
+              <span>
+                03
+              </span>
+
+              <h3>
+                Metal Components
+              </h3>
+
               <p>
-                Reflected on the findings and connected them with
-                responsible environmental practices.
+                Certain metals can be recovered and reused through
+                appropriate recycling processes.
               </p>
+
             </div>
 
           </div>
 
         </div>
 
+
+
+        {/* IMAGES */}
 
         <div className="evidence-section">
 
@@ -177,44 +234,51 @@ function Activity3({ goHome }) {
             <div>
 
               <p className="section-label">
-                04 / PROOF
+                02 / PROOF
               </p>
 
               <h2>
-                Activity <span>Evidence</span>
+                Anatomy <span>Evidence</span>
               </h2>
 
             </div>
 
+
             <p>
-              Add survey screenshots, photographs, reports,
-              presentation slides or certificates here.
+              Photographs documenting the disassembly and
+              component analysis process.
             </p>
 
           </div>
 
 
-          <div className="evidence-grid">
+          <div className="evidence-grid two-images">
 
             <div className="evidence-card">
-              <div className="evidence-placeholder">
-                PHOTO 01
-              </div>
-              <span>Activity Photograph</span>
+
+              <img
+                src={pic1}
+                alt="Mouse disassembly"
+              />
+
+              <span>
+                Mouse Disassembly
+              </span>
+
             </div>
 
-            <div className="evidence-card">
-              <div className="evidence-placeholder">
-                SURVEY
-              </div>
-              <span>Survey / Questionnaire</span>
-            </div>
 
             <div className="evidence-card">
-              <div className="evidence-placeholder">
-                REPORT
-              </div>
-              <span>Activity Report</span>
+
+              <img
+                src={pic2}
+                alt="Mouse components"
+              />
+
+              <span>
+                Extracted Components
+              </span>
+
             </div>
 
           </div>
@@ -222,15 +286,20 @@ function Activity3({ goHome }) {
         </div>
 
 
+
+        {/* LEARNING */}
+
         <div className="learning-section">
 
           <p className="section-label">
-            05 / REFLECTION
+            03 / LEARNING
           </p>
 
+
           <h2>
-            Final <span>Reflection</span>
+            What I <span>Learned</span>
           </h2>
+
 
           <div className="reflection-card">
 
@@ -238,11 +307,17 @@ function Activity3({ goHome }) {
               “
             </div>
 
+
             <p>
-              Add your final reflection here. Explain what you
-              learned from the activity, what surprised you and
-              how the experience influenced your understanding
-              of e-waste and sustainability.
+
+              This activity helped me understand that even a small
+              electronic device contains several different materials
+              and components. I learned how disassembly allows
+              valuable materials to be identified and recovered,
+              while also helping us recognize components that may
+              be harmful to the environment if disposed of
+              incorrectly.
+
             </p>
 
           </div>

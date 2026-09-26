@@ -1,3 +1,6 @@
+import pledgeImage from "../assets/activity1/pic1.png";
+
+
 function Activity1({ goHome }) {
 
   return (
@@ -15,22 +18,26 @@ function Activity1({ goHome }) {
             ← Back to Home
           </button>
 
+
           <p className="activity-label">
             ACTIVITY 01
           </p>
 
+
           <h1>
             E-Waste
-            <span> Awareness</span>
+            <span> Pledge</span>
           </h1>
 
+
           <p>
-            An activity focused on understanding the importance of
-            responsible electronic waste management and spreading
-            awareness about its environmental impact.
+            Taking a pledge to promote responsible e-waste
+            management and contribute towards a cleaner and
+            more sustainable environment.
           </p>
 
         </div>
+
 
         <div className="activity-big-number">
           01
@@ -39,53 +46,94 @@ function Activity1({ goHome }) {
       </div>
 
 
+
       <section className="activity-content section-container">
+
+
+        {/* META */}
 
         <div className="activity-meta-grid">
 
           <div className="meta-box">
-            <span>DATE</span>
-            <strong>Add Date</strong>
+
+            <span>
+              ACTIVITY
+            </span>
+
+            <strong>
+              E-Waste Pledge
+            </strong>
+
           </div>
 
-          <div className="meta-box">
-            <span>LOCATION</span>
-            <strong>VIT Mumbai</strong>
-          </div>
 
           <div className="meta-box">
-            <span>TYPE</span>
-            <strong>Academic Activity</strong>
+
+            <span>
+              TYPE
+            </span>
+
+            <strong>
+              Awareness Activity
+            </strong>
+
           </div>
 
+
           <div className="meta-box">
-            <span>STATUS</span>
+
+            <span>
+              SUBJECT
+            </span>
+
+            <strong>
+              E-Waste Management
+            </strong>
+
+          </div>
+
+
+          <div className="meta-box">
+
+            <span>
+              STATUS
+            </span>
+
             <strong className="status">
               ✓ Completed
             </strong>
+
           </div>
 
         </div>
 
+
+
+        {/* DESCRIPTION */}
 
         <div className="activity-detail-grid">
 
           <div>
 
             <p className="section-label">
-              01 / OBJECTIVE
+              01 / ACTIVITY DESCRIPTION
             </p>
 
+
             <h2>
-              Understanding the
-              <span> importance.</span>
+              A pledge towards
+              <span> responsibility.</span>
             </h2>
 
+
             <p className="detail-text">
-              The objective of this activity was to develop awareness
-              regarding electronic waste, its environmental impact,
-              responsible disposal practices and the importance of
-              recycling electronic products.
+
+              As part of the E-Waste Management subject, I
+              participated in an e-waste awareness pledge.
+              The activity focused on developing a sense of
+              responsibility towards electronic waste and
+              encouraging sustainable disposal practices.
+
             </p>
 
           </div>
@@ -93,14 +141,16 @@ function Activity1({ goHome }) {
 
           <div className="highlight-box">
 
-            <span>KEY FOCUS</span>
+            <span>
+              KEY MESSAGE
+            </span>
 
             <h3>
-              Awareness
+              Reduce
               <br />
-              Responsibility
+              Reuse
               <br />
-              Sustainability
+              Recycle
             </h3>
 
           </div>
@@ -108,115 +158,53 @@ function Activity1({ goHome }) {
         </div>
 
 
-        <div className="activity-description">
 
-          <p className="section-label">
-            02 / ACTIVITY DESCRIPTION
-          </p>
-
-          <h2>
-            What did I <span>do?</span>
-          </h2>
-
-          <p>
-            Add the detailed description of your Activity 1 here.
-            Explain what was performed, how it was conducted, who
-            participated and what your individual contribution was.
-          </p>
-
-        </div>
-
-
-        <div className="contribution-section">
-
-          <p className="section-label">
-            03 / MY CONTRIBUTION
-          </p>
-
-          <div className="contribution-grid">
-
-            <div>
-              <span>01</span>
-              <h3>Participation</h3>
-              <p>
-                Actively participated in the activity and contributed
-                towards its successful completion.
-              </p>
-            </div>
-
-            <div>
-              <span>02</span>
-              <h3>Awareness</h3>
-              <p>
-                Learned and communicated important information
-                related to responsible e-waste management.
-              </p>
-            </div>
-
-            <div>
-              <span>03</span>
-              <h3>Documentation</h3>
-              <p>
-                Collected and organized supporting evidence of
-                the activity.
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
-
-        {/* EVIDENCE */}
+        {/* IMAGE */}
 
         <div className="evidence-section">
 
           <div className="evidence-heading">
 
             <div>
+
               <p className="section-label">
-                04 / PROOF
+                02 / PROOF
               </p>
 
               <h2>
                 Activity <span>Evidence</span>
               </h2>
+
             </div>
 
+
             <p>
-              Photographs, certificates, reports and other
-              supporting documents can be displayed here.
+              Photograph documenting participation in the
+              e-waste pledge activity.
             </p>
 
           </div>
 
 
-          <div className="evidence-grid">
+          <div className="single-evidence-grid">
 
-            <div className="evidence-card">
-              <div className="evidence-placeholder">
-                PHOTO 01
-              </div>
-              <span>Activity Photograph</span>
-            </div>
+            <div className="large-evidence-card">
 
-            <div className="evidence-card">
-              <div className="evidence-placeholder">
-                PHOTO 02
-              </div>
-              <span>Activity Photograph</span>
-            </div>
+              <img
+                src={pledgeImage}
+                alt="E-waste pledge activity"
+              />
 
-            <div className="evidence-card">
-              <div className="evidence-placeholder">
-                DOCUMENT
+              <div className="evidence-caption">
+                E-Waste Pledge Activity
               </div>
-              <span>Supporting Document</span>
+
             </div>
 
           </div>
 
         </div>
+
 
 
         {/* LEARNING */}
@@ -224,12 +212,14 @@ function Activity1({ goHome }) {
         <div className="learning-section">
 
           <p className="section-label">
-            05 / REFLECTION
+            03 / LEARNING
           </p>
+
 
           <h2>
             What I <span>Learned</span>
           </h2>
+
 
           <div className="reflection-card">
 
@@ -237,11 +227,16 @@ function Activity1({ goHome }) {
               “
             </div>
 
+
             <p>
-              Add your personal reflection about this activity.
-              Mention what you learned, how your understanding
-              changed and how the activity helped you understand
-              the importance of responsible e-waste management.
+
+              Through this activity, I understood that managing
+              e-waste is not only the responsibility of recycling
+              facilities but also of every individual. The pledge
+              helped me become more aware of the importance of
+              responsible disposal and sustainable electronic
+              consumption.
+
             </p>
 
           </div>
